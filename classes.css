@@ -1,0 +1,123 @@
+:root {
+    --white: white;
+    --black: #26272b;
+    --col1: #F3F3F3;
+    --col2: #D0D0D0;
+    --col3: #01b9aa;
+    --basic: #3CB984;
+    --inter: #EEE70A;
+    --adv: #F09B07;
+    --elite: #F33608;
+    --kid: #7E51FF;
+}
+
+/* card */
+.card {
+    border: none;
+    transform: transform .3s;
+    background-color: var(--col2);
+    padding-bottom: 20px;
+
+}
+
+.card:hover {
+    transform: translateY(5px);
+    box-shadow: 2px 2px var(--black)
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20%;
+}
+
+@media screen and (max-width: 540px) {
+    .card-image {
+        width: 100%;
+        height: 250px;
+        border-top-left-radius: 20%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card-image {
+        width: 100%;
+        height: 350px;
+        border-top-left-radius: 20%;
+    }
+}
+
+#courses {
+    background-color: var(--col2);
+}
+
+#membership .card {
+    border-color: var(--basic);
+}
+
+#membership .card-body {
+    text-align: center;
+}
+
+#membership .card-body .basic {
+    color: var(--basic);
+    padding: 10px;
+    background-color: var(--col1);
+    text-shadow: 1px 1px var(--black);
+}
+
+#membership .card-body .inter {
+    color: var(--inter);
+    padding: 10px;
+    background-color: var(--col1);
+    text-shadow: 1px 1px var(--black);
+}
+
+#membership .card-body .adv {
+    color: var(--adv);
+    padding: 10px;
+    background-color: var(--col1);
+    text-shadow: 1px 1px var(--black);
+}
+
+#membership .card-body .elite {
+    color: var(--elite);
+    padding: 10px;
+    margin-bottom: 23px;
+    background-color: var(--col1);
+    text-shadow: 1px 1px var(--black);
+}
+
+.kid .card {
+    text-align: center;
+    padding: 0px 0px;
+}
+
+#membership .card-body .kid-card-title {
+    color: var(--kid);
+    padding: 10px;
+    background-color: var(--col1);
+    text-shadow: 1px 1px var(--black);
+}
+
+.mybtn {
+    background-color: var(--black);
+    color: var(--col1);
+    padding: 10px 30px;
+    box-shadow: 2px 2px var(--col3);
+}
+
+.mybtn:hover {
+    color: var(--black);
+    border-color: var(--black);
+    background-color: var(--col1);
+    box-shadow: 3px 3px var(--col3);
+}
+
+a.mybtn.my-reg-btn.btn {
+    text-align: center;
+}
+
+hr {
+    border-top: 1px solid var(--black);
+}

@@ -1,0 +1,66 @@
+:root {
+    --white: white;
+    --black: #26272b;
+    --col1: #F3F3F3;
+    --col2: #D0D0D0;
+    --col3: #01b9aa;
+    --basic: #3CB984;
+    --inter: #EEE70A;
+    --adv: #F09B07;
+    --elite: #F33608;
+    --kid: #7E51FF;
+}
+
+/* card */
+.card {
+    border: #01b9aa;
+    transform: transform .3s;
+    background-color: var(--col2);
+    padding-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(5px);
+    border-left: var(--black);
+    background-color: var(--black);
+    box-shadow: 2px 2px var(--black);
+}
+
+
+.card-body {
+    background-color: var(--col2);
+}
+
+.card-body:hover {
+    font-size: 20px;
+}
+
+.card-image1 {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20%;
+}
+
+.card-image2 {
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 20%;
+}
+
+@media screen and (min-width:700px) and (max-width: 1000px) {
+    .card-image1 {
+        width: 100%;
+        height: 450px;
+        border-top-left-radius: 20%;
+
+    }
+}
+
+@media screen and (min-width:700px) and (max-width: 1000px) {
+    .card-image2 {
+        width: 100%;
+        height: 650px;
+        border-top-left-radius: 20%;
+
+    }
+}

@@ -1,0 +1,54 @@
+:root {
+    --white: white;
+    --black: #26272b;
+    --col1: #F3F3F3;
+    --col2: #D0D0D0;
+    --col3: #01b9aa;
+    --basic: #3CB984;
+    --inter: #EEE70A;
+    --adv: #F09B07;
+    --elite: #F33608;
+    --kid: #7E51FF;
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+input[type=number],
+input[type=password],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.mybtn {
+    background-color: var(--black);
+    color: var(--col1);
+    padding: 10px 30px;
+    box-shadow: 2px 2px var(--col3);
+}
+
+.mybtn:hover {
+    color: var(--black);
+    border-color: var(--black);
+    background-color: var(--col1);
+    box-shadow: 3px 3px var(--col3);
+}
